@@ -46,8 +46,8 @@ def distribution(data, transformed = False):
         fig.suptitle("Skewed Distributions of Continuous Census Data Features", \
             fontsize = 16, y = 1.03)
 
-    fig.tight_layout()
-    fig.show()
+    pl.tight_layout()
+    pl.show()
 
 
 def evaluate(results, accuracy, f1):
